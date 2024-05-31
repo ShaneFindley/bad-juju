@@ -1,7 +1,7 @@
 services:
-  bad-juju-ui:
+  bad-juju-db1:
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "5000:3000"
+      - "5432:5432"
