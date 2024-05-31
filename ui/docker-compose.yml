@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  bad-juju-ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:3000"
